@@ -49,6 +49,9 @@ aside{
 .contenedor-qr__img{
   width: 150px;
 }
+footer{
+  border-radius: 1.5rem;
+}
 
 footer ul{
   width: 100%;
@@ -61,4 +64,5 @@ footer ul{
 h2{
   border-radius: 0.8rem;
   font-size: var(--font-size-l);
+  
 }
