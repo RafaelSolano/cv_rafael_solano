@@ -1,0 +1,38 @@
+.container-experiecia section{
+  margin:  00.8rem;
+}
+
+.container-experiecia h2,
+aside h2{
+  margin-bottom: 1.2rem;
+  padding: 0.8rem;
+  font-size: var(--font-size-x);
+  color: var(--color-font-secondary);
+  background-color: var(--color-background-tags);
+}
+
+ .formacion,
+ .capacitaciones,
+ .habilidades__list{
+  margin: 1.2rem 0.8rem;
+}
+
+.habilidades__list{
+  display: flex;
+  justify-content: space-between;  
+}
+
+.habilidades__list li{
+  line-height: 2rem;
+}
+
+.contenedor-qr figure{
+  display: flex;
+  justify-content: center; 
+}
+
+.contenedor-qr__url{
+  text-align: center;
+  margin: 0 0.8rem;
+  word-wrap: break-word; 
+}
