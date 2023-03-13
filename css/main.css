@@ -47,6 +47,7 @@ aside h2{
 }
 
 .contenedor-qr__img{
+  width: 250px;
   padding: 0.4rem;
   margin-bottom: 0.4rem;
   border: 2px dashed #000;
