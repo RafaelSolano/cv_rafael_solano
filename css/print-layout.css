@@ -2,6 +2,11 @@
   display:grid;
   place-content: center;
 }
+header{
+  padding: 1.4rem 0 0 1.4rem;
+  border-radius: 1.5rem  1.5rem 0 0 ;
+
+}
 
 header,
 main
@@ -12,19 +17,27 @@ main
   grid-template-columns: repeat(5, 1fr);
   justify-content: center;
   
+  
 }
 
 header,
 footer,
 main{
   grid-column: 1/6;
-  padding: 0;
+  
   margin: 0;
   
 }
 
+
 .container-header{
   grid-column: 1/4;
+}
+
+.proyecto-card{
+  border-radius: 1.2rem;
+  padding: 1.5rem;
+  
 }
 
 .container-img, aside{
@@ -50,7 +63,8 @@ aside{
   width: 150px;
 }
 footer{
-  border-radius: 1.5rem;
+  padding: 0;
+  border-radius:  0 0  1.5rem  1.5rem;
 }
 
 footer ul{

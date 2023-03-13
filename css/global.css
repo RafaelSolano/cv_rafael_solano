@@ -4,10 +4,10 @@
 
   --color-font-primary: #141414;
   --color-font-secondary: #ebebeb;
-  --color-background-main : #ececec;
+  --color-background-main : #f7f2f2;
   --color-background-aside : #222768;
-  --color-background-footer : #999999;
-  --color-background-tags : #1d1d1d;
+  --color-background-footer : #023e8a;
+  --color-background-tags : #023e8a;
 
   --font-size-xxl: 4rem;
   --font-size-xl: 3.2rem;
@@ -18,8 +18,23 @@
 }
 
 body{
+  padding: 1rem;;
   font-family: 'Roboto', sans-serif;
- 
+  background-image: url(../img/endless-constellation\ \(1\).svg);
+  
+  
+  
+  }
+
+  header,
+  aside, 
+  .proyecto-card
+  {
+    background: rgba(255, 255, 255, 0.09);
+    
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.2px);
+    -webkit-backdrop-filter: blur(3.2px);
   }
   
 h1, h2, h3, h4, p{

@@ -1,6 +1,8 @@
 footer{
   background-color: var(--color-background-footer);
   padding: 3rem;
+  color: var(--color-font-secondary);
+  border-radius: 0 0 0 0 ;
 }
 footer ul{
   display: flex;

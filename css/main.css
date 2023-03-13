@@ -1,5 +1,5 @@
 .container-experiecia section{
-  margin:  00.8rem;
+  margin:  0.8rem 0;
 }
 
 .container-experiecia h2,
@@ -10,6 +10,9 @@ aside h2{
   color: var(--color-font-secondary);
   background-color: var(--color-background-tags);
 }
+
+
+
 
  .formacion,
  .capacitaciones,
