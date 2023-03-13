@@ -11,6 +11,11 @@ aside h2{
   background-color: var(--color-background-tags);
 }
 
+.container-experiecia a{
+  cursor: pointer;
+
+}
+
 
 
 

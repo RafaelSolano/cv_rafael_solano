@@ -3,7 +3,8 @@
   place-content: center;
 }
 header{
-  padding: 1.4rem 0 0 1.4rem;
+  
+ 
   border-radius: 1.5rem  1.5rem 0 0 ;
 
 }
@@ -23,8 +24,8 @@ main
 header,
 footer,
 main{
+  max-width: 720px;
   grid-column: 1/6;
-  
   margin: 0;
   
 }
@@ -32,6 +33,8 @@ main{
 
 .container-header{
   grid-column: 1/4;
+  max-width: 720px;
+  padding: 1.4rem;
 }
 
 .proyecto-card{
@@ -43,19 +46,28 @@ main{
 .container-img, aside{
   grid-column: 4/6;
   
+  
 }
 .container-experiecia{
   grid-column: 1/4;
 
 }
+.container-experiecia section:nth-last-child(1){
+  
+  margin-bottom: 0;
+}
 
 .img-profile{
+
   
-  height: 223px;
+  height: 250px;
   object-fit: contain;
+  
   
 }
 aside{
+  
+  
   margin: 0;
   padding: 0; 
 }
@@ -64,6 +76,7 @@ aside{
 }
 footer{
   padding: 0;
+  margin: 0;
   border-radius:  0 0  1.5rem  1.5rem;
 }
 
@@ -71,7 +84,9 @@ footer ul{
   width: 100%;
   flex-direction: row;
   justify-content: space-around;
-  padding: 2rem 0;
+
+  align-content: center;
+  padding: 1.4rem 0;
 
   
 }
