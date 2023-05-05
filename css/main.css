@@ -16,9 +16,6 @@ aside h2{
 
 }
 
-
-
-
  .formacion,
  .capacitaciones,
  .habilidades__list{
@@ -59,4 +56,9 @@ aside h2{
   
   margin: 0 0.8rem;
   word-wrap: break-word; 
+}
+
+.capacitaciones a{
+  
+  text-decoration: underline;
 }
